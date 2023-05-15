@@ -1,0 +1,30 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button,
+ul,
+li {
+  all: unset;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  font-family: "BB Pro Text";
+  box-sizing: border-box;
+}
+
+html {
+  height: -webkit-fill-available;
+}
+
+body {
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
+  margin: 0;
+}
