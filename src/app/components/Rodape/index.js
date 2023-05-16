@@ -5,7 +5,7 @@ export const Rodape = () => {
 
   return (
     <RodapeContainer>
-      <RodapeCopyright>© {data.getFullYear()} </RodapeCopyright>
+      <RodapeCopyright>© {data.getFullYear()} BitWolfz </RodapeCopyright>
     </RodapeContainer>
   );
 };

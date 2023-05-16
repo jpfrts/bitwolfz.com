@@ -3,8 +3,8 @@ import StyledComponentsRegistry from "../../lib/registry";
 import "./globals.css";
 
 export const metadata = {
-  title: "jp freitas",
-  description: "oie, aqui é o jp freitas :)",
+  title: "BitWolfz",
+  description: "Site oficial do duo BitWolfz",
 };
 
 export default function RootLayout({ children }) {
