@@ -7,6 +7,7 @@ import { ParallaxProvider } from "react-scroll-parallax";
 
 import "./globals.css";
 import { Header } from "./components/Header";
+import { GoogleAnalytics } from "nextjs-google-analytics";
 
 export default function RootLayout({ children }) {
   return (
@@ -35,6 +36,7 @@ export default function RootLayout({ children }) {
                 "https://tidal.com/browse/artist/24492091",
               ]}
             />
+            <GoogleAnalytics trackPageViews />
           </ParallaxProvider>
         </StyledComponentsRegistry>
       </body>
