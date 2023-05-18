@@ -8,8 +8,6 @@ export const RodapeContainer = styled.footer`
   background-color: #000;
   padding: 0 20px;
   align-items: center;
-  position: fixed;
-  bottom: 0;
   width: 100%;
 `;
 
