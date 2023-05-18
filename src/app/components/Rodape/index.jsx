@@ -1,4 +1,5 @@
 import { RodapeContainer, RodapeCopyright } from "./style";
+import Link from "next/link";
 
 export const Rodape = () => {
   const data = new Date();
