@@ -8,11 +8,6 @@ import { ParallaxProvider } from "react-scroll-parallax";
 import "./globals.css";
 import { Header } from "./components/Header";
 
-export const metadata = {
-  title: "BitWolfz",
-  description: "Site oficial do duo BitWolfz",
-};
-
 export default function RootLayout({ children }) {
   return (
     <html lang="pt-BR">
