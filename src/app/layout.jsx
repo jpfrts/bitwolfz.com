@@ -23,11 +23,16 @@ export default function RootLayout({ children }) {
               name="BitWolfz"
               url="https://bitwolfz.com"
               sameAs={[
-                "https://twitch.tv/bitwolfz",
                 "https://instagram.com/bitwolfz",
-                "https://twitter.com/bitwolfz",
                 "https://youtube.com/@bitwolfz",
+                "https://twitter.com/bitwolfz",
+                "https://twitch.tv/bitwolfz",
+                "https://www.tiktok.com/@bitwolfz",
+                "https://soundcloud.com/bitwolfz",
                 "https://open.spotify.com/artist/5MHGqH2fgpXiJCpBeYJYc8",
+                "https://music.apple.com/artist/bitwolfz/1564026300",
+                "https://music.amazon.com/artists/B093CN9FK6/bitwolfz",
+                "https://tidal.com/browse/artist/24492091",
               ]}
             />
           </ParallaxProvider>
