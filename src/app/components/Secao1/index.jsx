@@ -27,7 +27,7 @@ export const Secao1 = () => {
             </ParallaxBannerLayer>
           </ParallaxBanner>
         </Card>
-        <Parallax speed={-30}>
+        <Parallax speed={-50}>
           <Redes />
         </Parallax>
       </Organizador>
