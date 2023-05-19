@@ -2,6 +2,7 @@
 
 import StyledComponentsRegistry from "../../lib/registry";
 import { SocialProfileJsonLd } from "next-seo";
+import { Rodape } from "./components/Rodape";
 import { ParallaxProvider } from "react-scroll-parallax";
 
 import "./globals.css";
@@ -16,6 +17,7 @@ export default function RootLayout({ children }) {
           <ParallaxProvider>
             <Header />
             {children}
+            <Rodape />
             <SocialProfileJsonLd
               useAppDir={true}
               type="MusicGroup"
