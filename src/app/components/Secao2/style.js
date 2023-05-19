@@ -2,12 +2,8 @@
 import { styled } from "styled-components";
 
 export const Card2 = styled.div`
-  display: flex;
-  flex-direction: column;
   width: 100%;
-  height: calc(100vh - 80px);
-  padding: 0 108px;
-  top: 105%;
+  padding: 0 100px 100px 100px;
   z-index: -1;
   background: rgb(0 19 86);
 `;
