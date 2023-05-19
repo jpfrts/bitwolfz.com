@@ -14,10 +14,16 @@ export const Secao1 = () => {
         <Card>
           <ParallaxBanner style={{ aspectRatio: "16 / 9" }}>
             <ParallaxBannerLayer speed={-65}>
-              <Logo2Linhas src="/images/logo-2lines.svg" />
+              <Logo2Linhas
+                src="/images/logo-2lines.svg"
+                alt="Logotipo BitWolfz"
+              />
             </ParallaxBannerLayer>
             <ParallaxBannerLayer speed={0}>
-              <ImageCard src="/images/fotos/ft1home_upper.webp" alt="" />
+              <ImageCard
+                src="/images/fotos/ft1home_upper.webp"
+                alt="BitWolfz"
+              />
             </ParallaxBannerLayer>
           </ParallaxBanner>
         </Card>
