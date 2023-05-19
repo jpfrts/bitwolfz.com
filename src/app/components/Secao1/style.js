@@ -12,7 +12,10 @@ export const Logo2Linhas = styled.img`
 export const ImageCard = styled.img`
   width: 100%;
 `;
-
+export const Redes = styled.div`
+  position: relative;
+  top: 0;
+`;
 export const Card = styled.div`
   -webkit-mask-image: linear-gradient(
     180deg,

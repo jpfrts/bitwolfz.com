@@ -13,9 +13,6 @@ export const Secao1 = () => {
       <Organizador>
         <Card>
           <ParallaxBanner style={{ aspectRatio: "16 / 9" }}>
-            <ParallaxBannerLayer speed={0}>
-              <ImageCard src="/images/fotos/ft1home_bg.webp" alt="" />
-            </ParallaxBannerLayer>
             <ParallaxBannerLayer speed={-65}>
               <Logo2Linhas src="/images/logo-2lines.svg" />
             </ParallaxBannerLayer>
@@ -24,7 +21,7 @@ export const Secao1 = () => {
             </ParallaxBannerLayer>
           </ParallaxBanner>
         </Card>
-        <Parallax speed={-10}>
+        <Parallax speed={-30}>
           <Redes />
         </Parallax>
       </Organizador>
