@@ -16,12 +16,32 @@ export default function RootLayout({ children }) {
           <ParallaxProvider>
             <Header />
             {children}
-
             <SocialProfileJsonLd
               useAppDir={true}
               type="MusicGroup"
               name="BitWolfz"
               url="https://bitwolfz.com"
+              mainEntityOfPage="https://bitwolfz.com/#"
+              logo="https://bitwolfz.com/logo.svg"
+              foundingDate="2020-08-03"
+              foundingLocation="Leopoldina, Minas Gerais, Brazil"
+              musicGroupMember={[
+                {
+                  "@type": "Person",
+                  name: "Mizurath",
+                  url: "https://bitwolfz.com",
+                  sameAs: [
+                    "https://www.instagram.com/mizu.bitwolfz",
+                    "https://www.youtube.com/@mizurath",
+                  ],
+                },
+                {
+                  "@type": "Person",
+                  name: "Rakan",
+                  url: "https://bitwolfz.com",
+                  sameAs: ["https://www.instagram.com/rakan.bitwolfz"],
+                },
+              ]}
               sameAs={[
                 "https://instagram.com/bitwolfz",
                 "https://youtube.com/@bitwolfz",
