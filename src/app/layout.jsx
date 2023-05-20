@@ -16,6 +16,7 @@ export default function RootLayout({ children }) {
           <ParallaxProvider>
             <Header />
             {children}
+
             <SocialProfileJsonLd
               useAppDir={true}
               type="MusicGroup"

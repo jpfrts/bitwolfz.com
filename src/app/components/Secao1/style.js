@@ -1,5 +1,8 @@
 "use client";
 import { styled } from "styled-components";
+export const CardTitulo = styled.h1`
+  display: none;
+`;
 
 export const Logo2Linhas = styled.img`
   max-width: 400px;
@@ -11,6 +14,7 @@ export const Logo2Linhas = styled.img`
 export const ImageCard = styled.img`
   width: 100%;
   z-index: 1;
+  pointer-events: none;
 `;
 
 export const Redes = styled.div`

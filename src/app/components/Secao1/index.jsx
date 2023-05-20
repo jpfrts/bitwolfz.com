@@ -4,13 +4,14 @@ import {
   ParallaxBanner,
   ParallaxBannerLayer,
 } from "react-scroll-parallax";
-import { Card, Logo2Linhas, ImageCard, Organizador } from "./style";
+import { Card, Logo2Linhas, ImageCard, Organizador, CardTitulo } from "./style";
 import { Redes } from "../Redes";
 
 export const Secao1 = () => {
   return (
     <>
       <Organizador>
+        <CardTitulo>BitWolfz</CardTitulo>
         <Card>
           <ParallaxBanner style={{ aspectRatio: "16 / 9" }}>
             <ParallaxBannerLayer speed={-65}>
