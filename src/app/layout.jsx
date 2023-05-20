@@ -51,13 +51,15 @@ export default function RootLayout({ children }) {
                 {
                   "@context": "https://schema.org",
                   "@type": "ImageObject",
-                  contentUrl: "https://bitwolfz.com/seo/foto1.webp",
+                  contentUrl:
+                    "https://bitwolfz.com/images/fotos/seo/foto1.webp",
                   name: "BitWolfz",
                 },
                 {
                   "@context": "https://schema.org",
                   "@type": "ImageObject",
-                  contentUrl: "https://bitwolfz.com/seo/foto2.webp",
+                  contentUrl:
+                    "https://bitwolfz.com/images/fotos/seo/foto2.webp",
                   name: "BitWolfz",
                 },
               ]}
