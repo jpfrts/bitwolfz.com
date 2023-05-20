@@ -22,9 +22,14 @@ export default function RootLayout({ children }) {
               name="BitWolfz"
               url="https://bitwolfz.com"
               mainEntityOfPage="https://bitwolfz.com/#"
-              logo="https://bitwolfz.com/logo.svg"
-              foundingDate="2020-08-03"
-              foundingLocation="Leopoldina, Minas Gerais, Brazil"
+              logo={[
+                {
+                  "@context": "https://schema.org",
+                  "@type": "ImageObject",
+                  contentUrl: "https://bitwolfz.com/logo.svg",
+                  name: "Logotipo BitWolfz",
+                },
+              ]}
               musicGroupMember={[
                 {
                   "@type": "Person",
@@ -42,6 +47,22 @@ export default function RootLayout({ children }) {
                   sameAs: ["https://www.instagram.com/rakan.bitwolfz"],
                 },
               ]}
+              image={[
+                {
+                  "@context": "https://schema.org",
+                  "@type": "ImageObject",
+                  contentUrl: "https://bitwolfz.com/seo/foto1.webp",
+                  name: "BitWolfz",
+                },
+                {
+                  "@context": "https://schema.org",
+                  "@type": "ImageObject",
+                  contentUrl: "https://bitwolfz.com/seo/foto2.webp",
+                  name: "BitWolfz",
+                },
+              ]}
+              foundingDate="2020-08-03"
+              foundingLocation="Leopoldina, Minas Gerais, Brazil"
               sameAs={[
                 "https://instagram.com/bitwolfz",
                 "https://youtube.com/@bitwolfz",
