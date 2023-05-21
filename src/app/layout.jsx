@@ -5,7 +5,6 @@ import { SocialProfileJsonLd } from "next-seo";
 import { ParallaxProvider } from "react-scroll-parallax";
 
 import "./globals.css";
-import { Header } from "./components/Header";
 import { GoogleAnalytics } from "nextjs-google-analytics";
 
 export default function RootLayout({ children }) {
@@ -14,7 +13,6 @@ export default function RootLayout({ children }) {
       <body>
         <StyledComponentsRegistry>
           <ParallaxProvider>
-            <Header />
             {children}
             <SocialProfileJsonLd
               useAppDir={true}
